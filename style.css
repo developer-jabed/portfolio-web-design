@@ -32,14 +32,69 @@ nav button{
     background-color: #FD6E0A;
     color: white;
 }
-.header{
+/* .header{
+    background-image: url('images/header_bg.png');
     background-color: #FFF8F3;
+   
 
+} */
+header{
+    background-image: url('images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom  right;
+    background-color: #fff8f3;
 }
 .banner{
     padding: 30px 30px 30px 150px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
 }
-.banner picture{
-    width: 500px;
-   
+.banner-content{
+    max-width: 500px;
+}
+.button-primary{
+    background-color: #FD6E0A;
+}
+.banner-greeting{
+    color:  #474747;
+font-size: 45px;
+font-weight: 600;
+}
+.banner-tittle{
+    color:#181818;
+font-size: 85px;
+font-weight: 700;
+margin-top: 5px;
+margin-bottom: 0;
+}
+.banner-description{
+    color: #757575;
+}
+/* main css */
+
+.section-title{
+    color: #181818;
+    text-align: center;
+    font-weight: 700;
+}
+.about-content{
+    color: #757575;
+    text-align: center;
+    font-weight: 400;
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.class-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.info-description{
+    font-weight: bolder;
+}
+.about-me{
+    text-align: center;
+    margin: 0 345px;
 }
